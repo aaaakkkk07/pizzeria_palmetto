@@ -8,7 +8,8 @@ public class StackTest {
 
     public static void main(String[] args) {
 
-        Stack<String> objectStack = new Stack<>(12);
+        //Stack<String> objectStack = new Stack<>(12);
+        Stack objectStack = new Stack(12);
 
 
 
