@@ -1,10 +1,24 @@
-### IntelliJ IDEA ###
+# === Maven Output ===
+target/
+*.jar
+*.war
+*.ear
+*.rar
+
+# === Java Class Files ===
+*.class
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
 
-### Eclipse ###
+# === Eclipse ===
 .apt_generated
 .classpath
 .factorypath
@@ -16,15 +30,19 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### NetBeans ###
+# === NetBeans ===
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# === VS Code ===
 .vscode/
 
-### Mac OS ###
+# === Mac OS ===
 .DS_Store
+
+# === Logs & System Files ===
+*.log
+.mvn/
