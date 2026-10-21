@@ -1,6 +1,4 @@
-package am.pizzeria.palmetto;
-
-import java.io.FileNotFoundException;
+package am.trainings.palmetto.pizza;
 
 /**
  * YAGNI, KISS, DRY

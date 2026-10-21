@@ -1,4 +1,4 @@
-package am.pizzeria.palmetto;
+package am.trainings.palmetto.pizza;
 
 public interface PizzaTypeInterface {
 
@@ -8,4 +8,6 @@ public interface PizzaTypeInterface {
     static String[] getTypes() {
         return new String[]{CALZONE, REGULAR};
     }
+
+    // 55Zt3cM7
 }
